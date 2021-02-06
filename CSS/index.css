@@ -1,0 +1,124 @@
+html {
+    background-color: #fffaef;
+}
+header {
+    overflow: hidden;
+}
+#top-header {
+    text-align: center;
+    height: 60px;
+}
+#logo {
+    float: left;
+    padding-bottom: 20px;
+    margin: none;
+    height: 60px;
+    width: 30%;
+}
+#logo img {
+    width: 60%;
+    float: left;
+    padding: 10px 0px;
+}
+#menu {
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+#menu ul {
+    text-align: center;
+    float: right;
+    margin: none;
+}
+#menu li{
+    font-family: 'Lora', serif;
+    font-weight: normal;
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+#menu li a, #menu li span {
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 60px;
+}
+#menu li a {
+    color: #000000
+}
+button {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #000000;
+    background-color: #b9c16a;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.menu {
+    font-family: 'Lora', serif;
+    color: #000000
+}
+#BFKmock {
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: none;
+}
+#FFmock {
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: none;
+}
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h4 {
+    font-family: 'Lulo Clean', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.text-center {
+    text-align: center;
+}
+.footer-text-left {
+    display: block;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    float: left;
+    word-spacing: 20px;
+    padding-top: 50px;
+    background-color: #edcece;
+    width: 100%;
+}
+@media only screen and (max-width: 600){
+    h2 {
+        font-size: 30px;
+    }
+}

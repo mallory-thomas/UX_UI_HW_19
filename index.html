@@ -1,0 +1,72 @@
+<html>
+<header>
+    <link href="CSS/index.css" rel="stylesheet" type="text/css">
+    <div id="top-header">
+        <div id="logo">
+            <img src="https://i.imgur.com/ciHU7nE.png" alt="MalloryThomas"/>
+        </div>
+        <nav>
+            <div id="menu">
+                <ul>
+                    <li class="active"><a href="#">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+</header>
+<section class="MyWork">
+    <h2 class="textCopy">Mallory Thomas is a UX/UI Designer based in Charleston, SC</h2>
+    <div class="text-center">
+        <button>View Resume</button>
+    </div>
+    <div>
+        <div>
+            <img id="BFKmock" src="https://i.imgur.com/tKqm2zK.png" alt="BFKmock" class="center"/>
+        </div>
+        <div class="center">
+            <h4 class="textCopy">Non-Profit Redesign: Books for Keeps</h4>
+            <p>Created a new responsive web design for the non-profit, Books for Keeps.</p>
+            <p>Tools Used: Adobe XD, Figma, Miro</p>
+        </div>
+        <div class="text-center">
+            <button>View Case Study</button>
+        </div>
+        <div>
+            <img id="FFmock" src="https://i.imgur.com/ZHsGp12.png" alt="FoodieFriendsmock" class="center"/>
+        </div>
+        <div class="center">
+            <h4 class="textCopy">App Invention: Foodie Friends</h4>
+            <p>Designed a meetup app that matches foodies based on food and restaurant preferences.</p>
+            <p>Tools Used: Figma, Miro, InDesign</p>
+        </div>
+        <div class="text-center">
+            <button>View Case Study</button>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <p class="footer-text-left">
+        <a href="#" class="menu">Work</a>
+        <a href="#" class="menu">About</a>
+        <a href="#" class="menu">Skills</a>
+        <a href="#" class="menu">Contact</a>
+    </p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+    <script>
+        $("document").ready(function() {
+            $(".textCopy").hover(highlightCopy);
+            function highlightCopy(){
+                $(this).toggleClass("highlight");
+            }
+        });
+    </script>
+    <style>
+        .highlight{
+            background: #edcece;
+        }
+    </style>
+</html>
